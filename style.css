@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: url(image/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock-container{
+
+    padding:  20px 20px;
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+#clock{
+    
+    color: hsl(0, 0%, 0%);
+    font-family: monospace;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+
+}
